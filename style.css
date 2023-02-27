@@ -1,0 +1,577 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: url(./img/header.png);
+  height: 146px;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header_nav {
+  display: flex;
+  gap: 50px;
+}
+.header_nav a {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header_nav-laptop {
+  display: none;
+}
+.header_nav-laptop a {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 96.4%;
+  text-align: center;
+  color: #ffffff;
+}
+.header_left {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header_left a {
+  text-decoration: none;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.header_left #logo {
+  margin-top: -15px;
+}
+
+.header_right {
+  display: flex;
+  gap: 20px;
+}
+.catalog {
+  padding: 20px 0;
+}
+.catalog_item {
+  display: flex;
+  gap: 30px;
+}
+
+.catalog a {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 96.4%;
+  color: #031412;
+  text-decoration: none;
+}
+.catalog a span {
+  font-weight: bold;
+}
+.catalog h2 {
+  font-family: "Lighthaus";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 105.9%;
+  color: #031412;
+}
+
+.catalog_items:nth-child(1) {
+  width: 327px;
+  height: 147px;
+  background: linear-gradient(rgba(203, 141, 98, 0) 33.24%, #cb8d62 104.72%),
+    url(./img/oil.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog_items:nth-child(2) {
+  width: 327px;
+  height: 147px;
+  background: linear-gradient(
+      360deg,
+      rgba(7, 44, 38, 0.5) 0%,
+      rgba(7, 44, 38, 0) 100%
+    ),
+    url(./img/oil2.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog_items:nth-child(3) {
+  width: 327px;
+  height: 147px;
+  background: linear-gradient(
+      360deg,
+      rgba(7, 44, 38, 0.5) 0%,
+      rgba(7, 44, 38, 0) 100%
+    ),
+    url(./img/honey.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog_items:nth-child(4) {
+  width: 327px;
+  height: 147px;
+  background: linear-gradient(
+      360deg,
+      rgba(7, 44, 38, 0.5) 0%,
+      rgba(7, 44, 38, 0) 100%
+    ),
+    url(./img/aksesuaar.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog_items p {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.catalog_buttom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.buttom_left {
+  display: flex;
+  gap: 131px;
+  border-bottom: 1px solid #031412;
+}
+.buttom_left p {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+  margin-bottom: 10px;
+}
+.buttom_left img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 13px;
+}
+.buttom_right {
+  display: flex;
+  gap: 18px;
+}
+.buttom_right p {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+}
+.buttom_right select {
+  border: 0;
+  outline: none;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+  margin-bottom: 20px;
+}
+.img_div {
+  background: #ffffff;
+  width: 50px;
+  height: 80px;
+  position: relative;
+}
+
+.img_div img {
+  position: absolute;
+  top: 40px;
+  left: 9px;
+}
+
+.line {
+  border: 1px solid #ebebeb;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.chaipai {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+
+.chai_img img {
+  width: 385px;
+  height: 365px;
+}
+
+.chai_img {
+  position: relative;
+}
+
+#sale {
+  position: absolute;
+  width: 49px;
+  height: 19px;
+}
+
+.sale_div {
+  background: #9b0000;
+  width: 84px;
+  height: 36px;
+  padding: 9px 18px 9px 18px;
+  position: absolute;
+  top: 27px;
+}
+
+#love {
+  position: absolute;
+  width: 43px;
+  height: 50px;
+  right: 0px;
+}
+
+.chai_img .chainik_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chai_img .chainik_text .h3 h4 {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+  opacity: 0.3;
+  margin-left: 40px;
+  background: url(./img/Line\ 2.png);
+}
+
+.chainik_text {
+  margin-top: 29px;
+  margin-bottom: 40px;
+}
+
+.chainik_text p {
+  width: 200px;
+  height: 38px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+}
+
+.chainik_text h3 {
+  width: 128px;
+  height: 29px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 96.4%;
+  color: #031412;
+}
+
+.chainik_text #red {
+  color: #9b0000;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  margin-left: 9px;
+}
+
+.button button {
+  width: 38px;
+  height: 48px;
+  background: #e5e5e5;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 96.4%;
+  color: #b3b9b8;
+  border: 1px solid #b3b9b8;
+}
+
+.button button:hover {
+  background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+  color: #ffffff;
+}
+
+.footer__items {
+  background: linear-gradient(285.45deg, #0b3f37 60.27%, #cb8d62 141.81%);
+  display: flex;
+  justify-content: space-around;
+  height: 375px;
+  position: relative;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-top: 90px;
+}
+
+.footer__left img {
+  width: 175px;
+  height: 47px;
+}
+
+.footer__left p {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134.4%;
+  color: #adadad;
+  width: 194px;
+  height: 38px;
+}
+
+.footer__left a {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134.4%;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.footer__right__items {
+  display: flex;
+  gap: 137px;
+}
+
+.footer__right__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  gap: 15px;
+}
+
+.footer__right__item .footer__svg {
+  display: flex;
+  gap: 18px;
+}
+
+.footer__right__item p {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100&family=Poor+Story&family=Raleway:wght@200&display=swap'); */
+
+.footer__right__item a {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.4%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__right__item .footer__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 50px;
+}
+
+.footer__text p {
+  position: absolute;
+  top: 270px;
+  right: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 96.4%;
+  text-align: center;
+  color: #ffffff;
+  transform: rotate(90deg);
+  background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+  width: 156px;
+  height: 50px;
+  padding: 16px;
+}
+/* @media (max-width: 768px) {
+  .container {
+    width: 665px;
+    margin: 0 auto;
+  }
+
+  .headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 140px;
+  }
+  .header_logo {
+    order: 1;
+  }
+  .header_logo img {
+    width: 160px;
+    height: 43px;
+  }
+  .header_nav {
+    order: 3;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .header_right {
+    order: 2;
+  }
+  .header_right .img_div {
+    width: 50px;
+    height: 100px;
+  }
+  .img_div img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .catalog_item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catalog h2 {
+    margin: 34px 0 30px 0;
+  }
+  .catalog_item .catalog_items {
+    width: 300px;
+  }
+  .chainik .chaipai {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__items {
+    height: 536px;
+    display: block;
+    position: relative;
+  }
+  .footer__text {
+    position: absolute;
+    left: 800px;
+    top: 162px;
+  }
+} */
+
+
+@media(max-width:768px){
+  .conteiner{
+    width: 665px;
+    margin: 0 auto;
+  } 
+  .headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 140px;
+  }
+  .header_logo {
+    order: 1;
+  }
+  .header_right{
+    order: 2;
+    margin-right: 82px;
+  }
+  .header_nav{
+    order: 3;
+    margin-left: -9px;
+  }
+  .img_div{
+    width: 50px;
+    height: 76px;
+    gap: 20px;
+  }
+  .img_div img {
+    width: 30px;
+    height: 30px;
+  }
+  .catalog_item{
+    width: 130%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catalog_items:nth-child(1),.catalog_items:nth-child(2),.catalog_items:nth-child(3),.catalog_items:nth-child(4){
+    width: 300px;
+  }
+  .chaipai {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chai_img img {
+    width: 366px;
+  }
+  .chainik {
+    width: 120%;
+  }
+  .chainik .chaipai{
+    width: 85%;
+  }
+  .chainik .chai_img:nth-child(1){
+    display: none;
+  }
+}
